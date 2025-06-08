@@ -1,0 +1,6 @@
+.venv
+venv310
+runtime.txt
+__pycache__/
+*.py[cod]
+.git

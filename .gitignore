@@ -10,3 +10,7 @@ __pycache__/
 
 # Virtual environment (if any)
 venv/
+.venv
+venv310
+runtime.txt
+data/
