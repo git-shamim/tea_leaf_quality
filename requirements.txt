@@ -3,6 +3,6 @@ numpy
 pandas
 scikit-learn
 Pillow
-opencv-python-headless
+opencv-python
 streamlit
 matplotlib
