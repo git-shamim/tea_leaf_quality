@@ -1,14 +1,10 @@
-# Core ML and image handling
-tensorflow-cpu==2.13.0
-numpy==1.24.4
-pandas==1.5.3
-scikit-learn==1.2.2
-Pillow==9.5.0
+tensorflow==2.13.0
+numpy
+pandas
+scikit-learn
+Pillow
+opencv-python-headless
+streamlit
+matplotlib
 
-# Streamlit app
-streamlit==1.31.1
-
-# Optional visualization
-matplotlib==3.7.1
-opencv-python-headless==4.7.0.72
 
