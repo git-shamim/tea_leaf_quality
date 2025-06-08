@@ -1,0 +1,11 @@
+# Ignore models and images including all subfolders and files
+models/
+images/
+
+# Python cache and junk files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Virtual environment (if any)
+venv/

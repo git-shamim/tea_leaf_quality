@@ -1,0 +1,14 @@
+# Core ML and image handling
+tensorflow
+numpy
+pandas
+scikit-learn
+Pillow
+
+# Streamlit app
+streamlit
+
+# For plotting or explanations (optional)
+matplotlib
+
+opencv-python
