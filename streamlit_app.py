@@ -9,7 +9,7 @@ from utils import preprocess_image
 
 # Paths
 MODEL_LOCAL_PATH = "models/tea_model.h5"
-MODEL_GCS_URL = "https://storage.googleapis.com/tea-leaf-assets/models/tea_model.h5"
+MODEL_GCS_URL = "https://storagokay I deleted my environmente.googleapis.com/tea-leaf-assets/models/tea_model.h5"
 
 # Load model with fallback
 @st.cache_resource

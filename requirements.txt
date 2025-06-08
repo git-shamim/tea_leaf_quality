@@ -1,10 +1,8 @@
-streamlit==1.25.0
-tensorflow==2.11.1
-protobuf==3.20.3
-numpy
-pandas
-Pillow
+tensorflow==2.15.0
+streamlit==1.32.2
+pandas~=2.0.1
+numpy~=1.24.3
 scikit-learn
 opencv-python
-google-cloud-storage
-requests
+pillow
+
