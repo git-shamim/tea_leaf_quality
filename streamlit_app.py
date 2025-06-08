@@ -23,6 +23,7 @@ def load_model():
                 tmp.write(response.content)
                 return tf.keras.models.load_model(tmp.name)
     except Exception as e:
+        st.error(f"❌ Model loading failed: {e}")
         st.stop()
 
 model = load_model()
