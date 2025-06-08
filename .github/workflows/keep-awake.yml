@@ -1,0 +1,14 @@
+name: Keep Tea Leaf App Awake
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Every 5 minutes
+  workflow_dispatch:
+
+jobs:
+  keep-awake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Tea Leaf Quality App
+        run: |
+          curl --silent --show-error --fail https://tealeafquality-vmpfqcfzzxcws4dqrh2lkn.streamlit.app || echo "App unreachable"
